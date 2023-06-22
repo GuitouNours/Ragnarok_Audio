@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+  background-image: url(dominik-mayer-kaldheim-set-illustration-finalrender-artstation.jpg);
+  background-position: center center;background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content {
+  width: 95%;
+  position: absolute;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+.right-col p {
+  font-size: 18px;
+  color: rgb(1, 6, 10);
+  font-weight: 400;
+  margin-right: 15px;
+}
+#icon {
+  width: 20vh;
+  cursor: pointer;
+}
+.horloge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 5vh;
+  font-size: 20vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#h {
+  width: 30vh;
+  height: 30vh;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(3, 3, 3);
+  box-shadow: 23px 25px 15px 5px black;
+  text-align: center;
+}
+#m {
+  width: 30vh;
+  height: 30vh;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(8, 8, 8);
+  box-shadow: 23px 25px 15px 5px black;
+  text-align: center;
+}
+#s {
+  width: 30vh;
+  height: 30vh;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(0, 0, 0);
+  box-shadow: 23px 25px 15px 5px black;
+  text-align: center;
+}
